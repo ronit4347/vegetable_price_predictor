@@ -10,7 +10,7 @@ MODEL_PATH = os.path.join(MODELS_DIR, 'linear_regression_model.pkl')
 ENCODER_PATH = os.path.join(MODELS_DIR, 'label_encoder.pkl')
 
 # Global variables to store loaded model and encoder
-_model = None
+_model = None 
 _label_encoder = None
 
 def _load_model_and_encoder():
